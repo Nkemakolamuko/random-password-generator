@@ -24,7 +24,7 @@ copyIcon.addEventListener("click", () => {
 function generatePassword() {
     const characters = "R$9aLpB5qWx#2vFmG8eTcY1zA!6sHdJkI&oU3lNpX@4rE7bZwCnVfQyMhKuSjD9aLpB5qWx#2vFmG8eTcY1zA!6sHdJkI&oU3lNpX@4rE7bZwCnVfQyMhKuSjD";
 
-    const passwordLength = 18;
+    const passwordLength = 10;
     let password = "";
     for (let index = 0; index < passwordLength; index++) {
         const randomNumber = Math.floor(Math.random() * characters.length);
